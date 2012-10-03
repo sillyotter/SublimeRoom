@@ -1,0 +1,3 @@
+[
+	{ "keys": ["ctrl+alt+c"], "command": "toggle_keep_cursor_centered" }
+]

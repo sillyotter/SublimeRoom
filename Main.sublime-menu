@@ -1,0 +1,12 @@
+[
+    {
+        "id": "tools",
+        "children":
+        [
+            {
+                "caption": "Toggle Keep Line Centered", 
+                "command": "toggle_keep_cursor_centered" 
+            }
+        ]
+    }
+]

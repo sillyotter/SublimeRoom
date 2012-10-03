@@ -1,0 +1,6 @@
+[
+    {   
+        "caption": "Toggle Keep Cursor Centered",
+        "command": "toggle_keep_cursor_centered"
+    }    
+]
