@@ -5,7 +5,7 @@ class ToggleKeepCursorCenteredCommand(sublime_plugin.TextCommand):
 	def run(self, edit):
 		v = self.view;
 		origVal = v.settings().get(SublimeRoomShared.key, False)
-		v.settings().set(key, not origVal)
+		v.settings().set(SublimeRoomShared.key, not origVal)
 
 	def is_enabled(self):
 		return True
