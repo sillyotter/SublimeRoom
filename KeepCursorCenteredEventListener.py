@@ -6,7 +6,7 @@ class KeepCursorCenteredEventListener(sublime_plugin.EventListener):
 		try:
 			if (view.settings().get(SublimeRoomShared.key, False)):
 				sel = view.sel()[0]
-				if sel.a == sel.b:
+				if sel.empty():
 					view.show_at_center(view.sel()[0])
 		except:
 			pass
